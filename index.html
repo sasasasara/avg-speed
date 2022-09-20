@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Velocidade Média</title>
+</head>
+<body>
+  <div class="header">
+    <a href="#">Velocidade Média</a>
+  </div>
+
+  <hr class="hidden"/>
+
+  <div class="menu">
+    <a href="#"><b>Home</b></a>
+    <a href="#">Sobre</a>
+  </div>
+
+  <hr class="hidden"/>
+
+  <div class="content">
+    <div class="calc">
+      <h2>Cálculo</h2>
+      <input type="number" id="inputDistance" placeholder="Informe o valor do deslocamento">
+      <input type="number" id="inputTime" placeholder="Informe o intervalo de tempo">
+      <input type="button" value="Limpar" id="inputClear">
+      <input type="button" value="Calcular" id="inputCalc">
+      <input type="text" id="inputResult" placeholder="Resultado" readonly>
+    </div>
+
+    <div class="hist">
+      <h2>Resultados</h2>
+      <textarea id="textareaResult" readonly></textarea>
+    </div>
+  </div>
+
+  <hr class="hidden"/>
+
+  <div class="footer">
+    <ul>
+      <li>SENAI SC</li>
+      <li>Curso de Desenvolvimento de Sistemas</li>
+      <li>Lógica de Progamação</li>
+      <li>Sara Dahlke</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
